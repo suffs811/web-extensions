@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lib Search</title>
+  <meta charset="utf-8" />
+  <style>
+    html, body {
+      width: auto;
+      height: auto;
+      font-family: Arial;
+      background-color: #000d42;
+      color: #ffffff;
+      padding: 5px;
+      text-align: center;
+    }
+
+    button {
+      border: none;
+      border-radius: 4px;
+      padding: 5px;
+      margin-top: 10px;
+      text-align: center;
+      cursor: pointer;
+      background-color: #ffffff;
+    }
+
+    button:hover {
+      background-color: #CFF2F2;
+    }
+
+    textarea {
+      width: 410px;
+      height: 100px;
+      font-family: Arial;
+      font-size: 14px;
+      background-color: #595959;
+      border: none;
+      color: #ffffff;
+      text-overflow: scroll;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Library Search</h1>
+  <h3>Search for Academic Articles</h3>
+
+  <form>
+    <textarea rows="4" cols="50" id="text"></textarea>
+    <br>
+    <button type="submit" id="button">Search</button>
+  </form>
+  <script src="content.js"></script>
+</body>
+</html>
