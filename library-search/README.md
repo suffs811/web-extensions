@@ -9,7 +9,7 @@ Purpose: help students/researchers quickly search for academic articles for writ
 
 ### first,
 - go to the main page of the web extensions repository here 
-- click the green `code <>` button to download the repo as a zip or through the command line
+- click the green `<> code` button to download the repo as a zip or through the command line
 - unzip the file
 
 ### to use in Chrome
