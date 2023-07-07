@@ -16,14 +16,14 @@ Purpose: help students/researchers quickly search for academic articles for writ
 - search `chrome://extensions/` in your Chrome search bar
 - toggle on the "Developer mode" button at the top right of the page
 - click the "Load unpacked" button at the top left of the page
-- double-click the "library-search-main" folder and click "Select"
+- double-click the "web-extensions" folder and then double-click the "library-search" folder and click "Select"
 - in chrome, click the puzzle piece button at the top right of the browser, and click the pin button next to Lib Search so you can easily click on extension later
 - now, when you click on the Library Search extension icon in your toolbar, you can enter text and search Google Scholar
 
 ### to use in Firefox
 - search `about:debugging#/runtime/this-firefox` in your Firefox search bar
 - click "load temporary add-on"
-- find the "library-search-main" folder you downloaded earlier
+- double-click the "web-extensions" folder and then double-click the "library-search" folder and click "Select"
 - select the "manifest.json" file and click "open"
 - the Library Search icon should show up in your browser toolbar
 - now, when you click on the Library Search extension icon in your toolbar, you can enter text and search Google Scholar
