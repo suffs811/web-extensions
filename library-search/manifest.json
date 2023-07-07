@@ -1,0 +1,19 @@
+{
+	"manifest_version": 3,
+	"version": "1",
+	"name": "Lib Search",
+  "permissions": [
+    "activeTab",
+    "tabs"
+  ],
+  "action": {
+    "default_title": "Lib Search",
+    "default_popup": "popup.html"
+  },
+	"content_scripts": [
+  	{
+    "matches": ["*://*/*"],
+    "css": ["style.css"]
+  }
+	]
+}
