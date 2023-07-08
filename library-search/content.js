@@ -2,6 +2,12 @@
 // Copyright (c) 2023 suffs811
 // https://github.com/suffs811/web-extensions.git
 // read the README.md file for more details; the software is distributed under the MIT license.
+/*
+Changing the academic database: 
+to have the extension search a different academic database,
+click the "settings" icon in the extension's popup and paste the URL into the prompt box.
+on the next search, the extension will search your inputted URL.
+*/
 
 // get text and search library
 function search() {
@@ -15,7 +21,7 @@ function search() {
   			window.open(url+selection);
   		} else {
   			var url = result["url"];
-  			window.open(url+selection);
+  			window.open(url+"&q="+selection);
 		};
   	}
 	)
