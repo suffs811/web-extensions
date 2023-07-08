@@ -1,25 +1,19 @@
 {
 	"manifest_version": 3,
-	"version": "1",
-	"name": "Library Search",
-  	"permissions": [
-   		"activeTab",
-		"tabs"
-	],
-  	"icons": {
-    		"16": "lib-search16.png",
-    		"32": "lib-search32.png",
-    		"48": "lib-search48.png",
-    		"128": "lib-search128.png"
-  	},
-  	"action": {
-    		"default_title": "Lib Search",
-    		"default_popup": "popup.html"
-  	},
-	"content_scripts": [
-  	{
-    		"matches": ["*://*/*"],
-    		"css": ["style.css"]
-  	}
-	]
+ 	"version": "1.0",
+  	"name": "Library Search",
+    	"permissions": [
+    		"activeTab",
+   		"tabs"
+  	],
+    	"icons": {
+     		 "16": "lib-search16.png",
+      		"32": "lib-search32.png",
+      		"48": "lib-search48.png",
+      		"128": "lib-search128.png"
+    	},
+    	"action": {
+      		"default_title": "Library Search",
+      		"default_popup": "popup.html"
+    	}
 }
