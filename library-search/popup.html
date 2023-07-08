@@ -38,14 +38,26 @@
       color: #ffffff;
       text-overflow: scroll;
       border-radius: 4px;
-      padding: 7px;
+      padding: 5px;
+    }
+
+    #container {
+      display: inline-block;
+    }
+
+    #settings {
+      width: 20px;
+      height: 20px;
+      margin-left: 95%;
     }
   </style>
 </head>
 <body>
-  <h1>Library Search</h1>
-  <h3>Search for Academic Articles</h3>
-
+    <input type="image" id="settings" alt="settings" src="settings.png">
+  <div id="container">
+    <h1>Library Search</h1>
+    <h3>Search for Academic Articles</h3>
+  </div>
   <form>
     <textarea rows="4" cols="50" id="text"></textarea>
     <br>
