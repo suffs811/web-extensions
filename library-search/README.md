@@ -1,4 +1,5 @@
 # Library Search - Chrome Extension
+> currently pending review on the Chrome Extension store
 --------------
 This extension allows you to write or paste words into a text area and then search for them in Google Scholar
 
